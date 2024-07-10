@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #111;
+    padding: 10px;
+    text-align: left;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about, .social-media, .subscribe, .categories, .gallery, .articles {
+    margin: 20px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif; /* Futuristic font */
+}
+
+.subscribe button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.subscribe button:hover {
+    background-color: #555;
+}
+
+.contact-form {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.contact-form label, .contact-form input, .contact-form textarea, .contact-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.contact-form button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.contact-form input[readonly] {
+    background-color: #333;
+    color: #999;
+}
